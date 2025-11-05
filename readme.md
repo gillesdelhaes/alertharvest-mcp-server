@@ -90,11 +90,9 @@ echo '{"jsonrpc":"2.0","method":"tools/list","id":1}' | python alertharvest_serv
 ## Alert Severity Levels
 
 Valid severity levels for alerts:
-- `critical` - Highest priority
-- `high` - High priority
-- `medium` - Medium priority
-- `low` - Low priority
-- `info` - Informational only
+- `CRITICAL` - Highest priority
+- `MAJOR` - Medium priority
+- `WARNING` - Lower priority
 
 ## Troubleshooting
 
